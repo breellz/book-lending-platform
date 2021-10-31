@@ -24,7 +24,9 @@ queryString: localhost:8080/users?name=v77xzkwnwdcnia630nsi9x02yh0243&userid=oni
 method: GET
 
 name =  name of the book to be requested
+
 userid = name of the user in the filesystem
+
 (if run once the book is borrowed but if run subsequent times, you get an error that the book has already been borrowed, so you have to return the book before you can borrow again. Also the book count gets reduced by 1)
 
 ======================================================================
